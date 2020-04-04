@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100hv;
+  width: 100%;
+}
+
+.calc-wrapper {
+  margin-top: 50px;
+  height: 800px;
+  width: 400px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}

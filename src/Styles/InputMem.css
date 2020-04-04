@@ -1,0 +1,10 @@
+.input2 {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  outline: 1px black solid;
+  height: 2em;
+  width: 100%;
+  font-size: 2.5em;
+}

@@ -1,0 +1,22 @@
+.btn {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 4em;
+  outline: 1px solid rgb(53, 53, 53);
+  background-color: #1c1c1c;
+  color: white;
+  font-size: 1.4em;
+  font-weight: lighter;
+}
+
+.operator1 {
+  background-color: #ffcd00;
+  color: white;
+}
+
+.operator2 {
+  background-color: #872ec4;
+  color: white;
+}
