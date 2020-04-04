@@ -22,7 +22,6 @@ export class App extends React.Component {
   //Print all numbers
   input = val => {
     if (this.state.input == "0") {
-      //Si en la entrada hay un cero, quitar el cero e imprimir val
       this.setState({ input: val, mem: val });
     } else {
       this.setState({
@@ -30,7 +29,6 @@ export class App extends React.Component {
         mem: this.state.mem + val
       });
       if (this.state.mem.length == "16") {
-        //Máximo de 16 carácteres en salidas
         this.setState({ mem: "", input: "" });
       }
     }
