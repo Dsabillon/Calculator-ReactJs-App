@@ -132,7 +132,6 @@ export class App extends React.Component {
     return (
       <div className="App">
         <div className="calc-wrapper">
-          <InputMem>{this.state.mem}</InputMem>
           <Input>{this.state.input}</Input>
           <div className="row">
             <Button handleClick={this.clear}>C</Button>
